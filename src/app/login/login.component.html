@@ -1,0 +1,18 @@
+<div style="text-align:center">
+  <h1>Login</h1>
+
+  <label>Login ID：
+    <input [(ngModel)]="logininfo.loginid" placeholder="Login ID">
+  </label>
+
+  <br>
+  <br>
+
+  <label>Password：
+    <input [(ngModel)]="logininfo.password" placeholder="Password">
+  </label>
+
+  <br>
+
+  <button class="login" (click)="loginService.doLogin(logininfo.loginid, logininfo.password)">login</button>
+</div>
