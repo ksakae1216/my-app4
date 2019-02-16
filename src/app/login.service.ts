@@ -16,8 +16,9 @@ export class LoginService {
    */
   public doLogin(loginId: string, password: string) {
     this.isLoginOk = this.isLogin(loginId, password);
-    console.log('login OK? -> ' + this.isLoginOk);
-    this.router.navigateByUrl('/list');
+    if(this.isLoginOk) {
+      this.router.navigateByUrl('/list');
+    }
   }
 
   /**
