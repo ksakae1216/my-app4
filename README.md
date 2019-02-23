@@ -1,13 +1,15 @@
 # My Blog
-https://www.ksakae1216.com/entry/2019/02/12/073000
+https://www.ksakae1216.com/entry/2019/02/20/073000
 
-# MyApp3
+# Aplication start
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+git clone https://github.com/ksakae1216/my-app3.git
 
-## Development server
+npm i @angular-devkit/build-angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+cd my-app3
+
+npm start
 
 ## Code scaffolding
 
