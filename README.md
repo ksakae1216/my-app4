@@ -5,9 +5,10 @@ https://www.ksakae1216.com/entry/2019/02/20/073000
 
 git clone https://github.com/ksakae1216/my-app3.git
 
+cd my-app3
+
 npm i @angular-devkit/build-angular
 
-cd my-app3
 
 npm start
 
