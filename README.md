@@ -7,7 +7,7 @@ git clone https://github.com/ksakae1216/my-app3.git
 
 cd my-app3
 
-npm i @angular-devkit/build-angular
+npm i @angular/core
 
 
 npm start
