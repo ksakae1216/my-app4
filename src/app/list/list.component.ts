@@ -15,7 +15,6 @@ export class ListComponent implements OnInit {
   constructor(private listService: ListService) { }
 
   ngOnInit() {
-    console.info('list component!!');
     this.getDataList();
   }
 
