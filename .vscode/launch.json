@@ -5,34 +5,12 @@
     "version": "2.0.0",
     "configurations": [
         {
-          "name": "ng serve",
+          "name": "Launch local file",
           "type": "chrome",
           "request": "launch",
-          "preLaunchTask": "npm: start",
-          "url": "http://localhost:4200/#",
-          "webRoot": "${workspaceFolder}"
+          "url": "http://localhost:4200/login",
+          "webRoot": "${workspaceFolder}/",
+          "sourceMaps": true,
         },
-        {
-            "name": "ng test",
-            "type": "chrome",
-            "request": "launch",
-            "url": "http://localhost:9876",
-            "webRoot": "${workspaceFolder}",
-            "sourceMaps": true,
-            "sourceMapPathOverrides": {
-              "/./*": "${webRoot}/*",
-              "/src/*": "${webRoot}/*",
-              "/*": "*",
-              "/./~/*": "${webRoot}/node_modules/*"
-            }
-          },
-          {
-            "name": "ng e2e",
-            "type": "node",
-            "request": "launch",
-            "program": "${workspaceFolder}/node_modules/protractor/bin/protractor",
-            "protocol": "inspector",
-            "args": ["${workspaceFolder}/e2e/protractor.conf.js"]
-          }
     ]
 }
