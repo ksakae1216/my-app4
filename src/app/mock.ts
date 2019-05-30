@@ -3,8 +3,8 @@ import { DataListDef } from './object/data-list-def';
 
 // Loginできるユーザー、パスワードリスト
 export const LOGININFOLIST: LoginInfoDef[] = [
-    { loginid: 'test1', password: 'Test1'},
-    { loginid: 'test2', password: 'Test2'},
+    { loginid: 'test1', password: 'password1'},
+    { loginid: 'test2', password: 'password2'},
 ];
 
 // Listページに表示するデータリスト
