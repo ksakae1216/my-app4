@@ -8,10 +8,10 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to my-app4!');
-  });
+  // xit('should display welcome message', () => {
+  //   page.navigateTo();
+  //   expect(page.getTitleText()).toEqual('Welcome to my-app4!');
+  // });
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser

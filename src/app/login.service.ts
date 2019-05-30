@@ -28,7 +28,7 @@ export class LoginService {
   private isLogin(loginId: string, password: string): boolean {
     // Login Check
     const isLoginObj = LOGININFOLIST.find(
-      // (logininfo) => { return (logininfo.loginid === loginId && logininfo.password === password); }
+
       (logininfo) => (logininfo.loginid === loginId && logininfo.password === password)
     );
 
